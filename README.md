@@ -1,0 +1,15 @@
+# Tiago Henriques — developer website
+
+Static developer website maintained in the private `tiagomnh/tiagomnh-site` repository. The website has not been published. No external fonts, scripts, analytics, forms, or cookies.
+
+Preview from this directory:
+
+    python3 -m http.server 8080 --bind 127.0.0.1
+
+Open http://127.0.0.1:8080. Stop with Ctrl-C.
+
+Pages: `/`, `/photovania/`, `/photovania/support/`, `/photovania/privacy/`.
+
+Before publication: review the privacy wording, confirm the release status, add the App Store link when available, and remove the noindex metadata. Keep this website repository separate from the app repository; publish only this repository when ready. Relative URLs support GitHub Pages project hosting. Add the final support and privacy URLs to `AppStore/store-settings.json` only after they are live.
+
+The screenshots show fictional demo game artwork. Public contact is email only; the App Review phone number is not included. Privacy wording was checked against the app's local storage, photo picker, Vision OCR, and optional artwork downloader on 11 November 2026. No claim of legal certification is made.
